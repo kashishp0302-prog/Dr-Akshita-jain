@@ -15,12 +15,21 @@ html{
 /* Body */
 
 body{
-    background:#F5F9FF;
-}
 
+    background:linear-gradient(
+    135deg,
+    #F8FBFF,
+    #EEF6FF,
+    #FFFFFF);
+
+    color:var(--dark);
+
+    overflow-x:hidden;
+
+}
 /* Navbar */
 
-..navbar{
+.navbar{
 
     position:sticky;
     top:20px;
@@ -252,5 +261,73 @@ body{
     color:#0B5ED7;
 
     box-shadow:0 20px 50px rgba(0,0,0,.12);
+
+}
+/*========================
+  Theme Colors
+=========================*/
+
+:root{
+
+    --primary:#2563EB;
+
+    --primary-dark:#1D4ED8;
+
+    --secondary:#38BDF8;
+
+    --dark:#0F172A;
+
+    --gray:#64748B;
+
+    --light:#F8FAFC;
+
+    --white:#FFFFFF;
+
+    --glass:rgba(255,255,255,.70);
+
+}
+/*========================
+ Floating Blobs
+=========================*/
+
+.blob{
+
+    position:fixed;
+
+    border-radius:50%;
+
+    filter:blur(90px);
+
+    z-index:-1;
+
+    opacity:.45;
+
+}
+
+.blob1{
+
+    width:350px;
+
+    height:350px;
+
+    background:#60A5FA;
+
+    top:-120px;
+
+    left:-120px;
+
+}
+
+.blob2{
+
+    width:420px;
+
+    height:420px;
+
+    background:#7DD3FC;
+
+    right:-150px;
+
+    bottom:-150px;
 
 }
