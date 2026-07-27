@@ -10,6 +10,7 @@
 
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+     <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
 </head>
 <body>
 
@@ -38,7 +39,9 @@
 
 <section class="hero">
 
-    <div class="hero-text">
+    <div class="hero-text" data-aos="fade-right">
+        <div class="glow-circle glow-1"></div>
+        <div class="glow-circle glow-2"></div>
 
         <p class="subtitle">
             Compassion • Care • Commitment
@@ -70,18 +73,39 @@
 
     </div>
 
-    <div class="hero-image">
+    <div class="hero-image" data-aos="fade-left">
 
-        <div class="doctor-card">
+    <div class="doctor-card">
+        <img src="images/doctor/doctor.png" alt="Dr. Akshita Jain">
+    </div>
 
-    <img src="images/doctor/doctor.png"
-         alt="Dr. Akshita Jain">
+    <div class="floating-card rating">
+        ⭐ <strong>4.9/5</strong><br>
+        Patient Rating
+    </div>
+
+    <div class="floating-card experience">
+        👩‍⚕️ <strong>4+ Years</strong><br>
+        Experience
+    </div>
+
+    <div class="floating-card patients">
+        😊 <strong>1000+</strong><br>
+        Happy Patients
+    </div>
 
 </div>
 
     </div>
 
 </section>
-    
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+<script>
+AOS.init({
+    duration:1000,
+    once:true
+});
+</script>    
 </body>
 </html>
