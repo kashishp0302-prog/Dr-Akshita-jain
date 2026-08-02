@@ -106,3 +106,34 @@ menu.addEventListener("click",()=>{
     nav.classList.toggle("active");
 
 });
+const counters = document.querySelectorAll(".counter");
+
+counters.forEach(counter => {
+
+    const target = Number(counter.dataset.target);
+
+    let count = 0;
+
+    const step = Math.max(1, Math.ceil(target / 100));
+
+    const update = () => {
+
+        count += step;
+
+        if (count >= target) {
+
+            counter.textContent = target + "+";
+
+        } else {
+
+            counter.textContent = count + "+";
+
+            requestAnimationFrame(update);
+
+        }
+
+    };
+
+    update();
+
+});
