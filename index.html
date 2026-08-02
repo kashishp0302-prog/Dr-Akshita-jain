@@ -1,111 +1,723 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
+    <!-- =========================
+         META
+    ========================== -->
+
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dr. Akshita Jain</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
 
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
 
-<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="CSS/style.css">
-     <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+    <meta name="description"
+          content="Dr. Akshita Jain | Consultant Physician providing compassionate, evidence-based healthcare with a patient-first approach.">
+
+    <meta name="keywords"
+          content="Doctor, Physician, Consultant Physician, Chennai, Internal Medicine">
+
+    <meta name="author"
+          content="Dr. Akshita Jain">
+
+    <title>
+        Dr. Akshita Jain | Consultant Physician | Chennai
+    </title>
+
+    <!-- =========================
+         GOOGLE FONT
+    ========================== -->
+
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap"
+          rel="stylesheet">
+
+    <!-- =========================
+         CSS
+    ========================== -->
+
+    <link rel="stylesheet"
+          href="CSS/style.css">
+
+    <link rel="stylesheet"
+          href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+
+    <!-- =========================
+         ICONS
+    ========================== -->
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+
 </head>
+
 <body>
+
+<!-- =========================
+     BACKGROUND BLOBS
+========================== -->
 
 <div class="blob blob1"></div>
 <div class="blob blob2"></div>
 
+<!-- =========================
+     HEADER
+========================== -->
+
+<header>
+
 <nav class="navbar">
 
-    <div class="logo">
+    <a href="index.html" class="logo">
         Dr. Akshita Jain
-    </div>
+    </a>
 
     <ul class="nav-links">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Gallery</a></li>
-        <li><a href="#">Contact</a></li>
+
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#why-us">Why Choose Us</a></li>
+        <li><a href="#contact">Contact</a></li>
+
     </ul>
 
-    <a href="#" class="btn">Book Appointment</a>
+    <a href="#appointment" class="btn nav-btn">
+
+        Book Appointment
+
+    </a>
+
+    <button class="menu-toggle" aria-label="Open Menu">
+
+        <i data-lucide="menu"></i>
+
+    </button>
 
 </nav>
+</header>
 
-<!-- ================= HERO ================= -->
+<!-- =========================
+     MAIN
+========================== -->
 
-<section class="hero">
+<main>
 
-    <div class="hero-text" data-aos="fade-right">
-        <div class="glow-circle glow-1"></div>
-        <div class="glow-circle glow-2"></div>
+<!-- =========================
+     HERO
+========================== -->
 
-        <p class="subtitle">
-            Compassion • Care • Commitment
-        </p>
+<section id="home"
+         class="hero">
 
-        <h1>
-            Dr. Akshita Jain
-        </h1>
+<div class="hero-left"
+     data-aos="fade-right">
 
-        <h2>
-            Consultant Physician
-        </h2>
+    <span class="hero-tag">
 
-        <p class="description">
-            Delivering compassionate, evidence-based healthcare with a patient-first approach. Your health, comfort, and well-being are always our priority.
-        </p>
+        Trusted Healthcare For Every Family
 
-        <div class="hero-buttons">
+    </span>
 
-            <a href="#" class="btn">
-                Book Appointment
-            </a>
+    <h1>
 
-            <a href="#" class="btn-secondary">
-                Learn More
+        Dr. Akshita Jain
+
+    </h1>
+
+    <h2>
+
+        Consultant Physician
+
+    </h2>
+
+    <p>
+
+        Delivering compassionate,
+        evidence-based healthcare with a
+        patient-first approach focused on
+        accurate diagnosis, preventive care
+        and personalised treatment for every patient.
+
+    </p>
+
+    <div class="hero-buttons">
+
+        <a href="#appointment"
+           class="btn">
+
+            Book Appointment
+
+        </a>
+
+        <a href="#about"
+           class="btn-secondary">
+
+            View Profile
+
+        </a>
+
+    </div>
+
+    <div class="hero-features">
+
+    <div class="feature-item">
+
+        <i data-lucide="shield-check"></i>
+
+        <span>Evidence Based Care</span>
+
+    </div>
+
+    <div class="feature-item">
+
+        <i data-lucide="heart-handshake"></i>
+
+        <span>Personalised Treatment</span>
+
+    </div>
+
+    <div class="feature-item">
+
+        <i data-lucide="stethoscope"></i>
+
+        <span>Patient First Approach</span>
+
+    </div>
+
+</div>
+</div>
+
+<div class="hero-right"
+     data-aos="fade-left">
+
+    <div class="hero-glow"></div>
+
+    <div class="doctor-card">
+
+        <img src="images/doctor/doctor.png"
+             alt="Dr. Akshita Jain">
+
+    </div>
+
+    <div class="card rating-card">
+
+    <i data-lucide="star"></i>
+
+    <div>
+
+        <strong>4.9 / 5</strong>
+
+        <span>Patient Rating</span>
+
+    </div>
+
+</div>
+
+    <div class="card experience-card">
+
+    <i data-lucide="briefcase-medical"></i>
+
+    <div>
+
+        <strong>5+</strong>
+
+        <span>Years Experience</span>
+
+    </div>
+
+</div>
+    <div class="card patient-card">
+
+    <i data-lucide="users"></i>
+
+    <div>
+
+        <strong>1000+</strong>
+
+        <span>Patients Treated</span>
+
+    </div>
+
+</div>
+</div>
+</section>
+<!-- ==========================================
+     ABOUT SECTION
+========================================== -->
+
+<section id="about" class="about-section">
+    <div class="container about-container">
+
+        <div class="about-image" data-aos="fade-right">
+
+            <img src="images/doctor/doctor.png"
+                 alt="Dr. Akshita Jain">
+
+        </div>
+
+        <div class="about-content" data-aos="fade-left">
+
+            <span class="section-tag">
+                ABOUT THE DOCTOR
+            </span>
+
+            <h2>
+                Compassionate Care with Clinical Excellence
+            </h2>
+
+            <p>
+                Dr. Akshita Jain is a Consultant Physician committed to
+                delivering evidence-based healthcare with compassion,
+                professionalism and a patient-first approach.
+            </p>
+
+            <p>
+                She focuses on preventive healthcare, accurate diagnosis,
+                chronic disease management and personalised treatment
+                plans for every patient.
+            </p>
+
+            <div class="about-list">
+
+                <div class="about-item">
+                    <i data-lucide="badge-check"></i>
+                    <span>Evidence Based Treatment</span>
+                </div>
+
+                <div class="about-item">
+                    <i data-lucide="heart-pulse"></i>
+                    <span>Preventive Healthcare</span>
+                </div>
+
+                <div class="about-item">
+                    <i data-lucide="stethoscope"></i>
+                    <span>Complete Medical Consultation</span>
+                </div>
+
+                <div class="about-item">
+                    <i data-lucide="users"></i>
+                    <span>Personalised Patient Care</span>
+                </div>
+                <div class="about-item">
+    <i data-lucide="house"></i>
+    <span>Home Consultation Available</span>
+</div>
+
+            </div>
+
+            <a href="#appointment" class="btn">
+                Book Consultation
             </a>
 
         </div>
 
     </div>
 
-    <div class="hero-image" data-aos="fade-left">
+</section>
+<!-- ==========================================
+     QUALIFICATIONS
+========================================== -->
 
-    <div class="doctor-card">
-        <img src="images/doctor/doctor.png" alt="Dr. Akshita Jain">
+<section class="qualifications" id="qualifications">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <span class="section-subtitle">
+
+                QUALIFICATIONS
+
+            </span>
+
+            <h2>
+
+                Education & Professional Journey
+
+            </h2>
+
+        </div>
+
+        <div class="timeline">
+
+            <div class="timeline-item">
+
+                <div class="timeline-dot"></div>
+
+                <div class="timeline-card">
+
+                    <h3>
+
+                        MBBS
+
+                    </h3>
+
+                    <h4>
+
+                        University Name
+
+                    </h4>
+
+                    <p>
+
+                        Replace this with Dr. Akshita Jain's MBBS details.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="timeline-item">
+
+                <div class="timeline-dot"></div>
+
+                <div class="timeline-card">
+
+                    <h3>
+
+                        MD / DNB
+
+                    </h3>
+
+                    <h4>
+
+                        Post Graduation
+
+                    </h4>
+
+                    <p>
+
+                        Replace with postgraduate qualification details.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="timeline-item">
+
+                <div class="timeline-dot"></div>
+
+                <div class="timeline-card">
+
+                    <h3>
+
+                        Consultant Physician
+
+                    </h3>
+
+                    <h4>
+
+                        Clinical Experience
+
+                    </h4>
+
+                    <p>
+
+                        Add hospital affiliations and professional experience here.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
     </div>
 
-    <div class="floating-card rating">
-        ⭐ <strong>4.9/5</strong><br>
-        Patient Rating
+</section>
+<!-- ==========================================
+     SERVICES
+========================================== -->
+
+<section id="services" class="services">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <span class="section-tag">
+                OUR SERVICES
+            </span>
+
+            <h2>
+                Comprehensive Medical Care
+            </h2>
+
+            <p>
+                Providing compassionate, evidence-based healthcare for every stage of life.
+            </p>
+
+        </div>
+
+        <div class="service-grid">
+
+            <div class="service-card">
+                <i data-lucide="stethoscope"></i>
+                <h3>General Consultation</h3>
+                <p>Complete evaluation and treatment for acute and chronic illnesses.</p>
+            </div>
+
+            <div class="service-card">
+                <i data-lucide="heart-pulse"></i>
+                <h3>Preventive Health Check</h3>
+                <p>Routine health screening and preventive care for better wellbeing.</p>
+            </div>
+
+            <div class="service-card">
+                <i data-lucide="activity"></i>
+                <h3>Chronic Disease Care</h3>
+                <p>Management of diabetes, hypertension, thyroid disorders and more.</p>
+            </div>
+
+            <div class="service-card">
+                <i data-lucide="clipboard-plus"></i>
+                <h3>Health Screening</h3>
+                <p>Early diagnosis through comprehensive health assessment.</p>
+            </div>
+
+            <div class="service-card">
+                <i data-lucide="pill"></i>
+                <h3>Medication Guidance</h3>
+                <p>Personalized prescriptions with regular follow-up care.</p>
+            </div>
+
+            <div class="service-card">
+                <i data-lucide="house"></i>
+                <h3>Home Visits</h3>
+                <p>Medical consultation at home for eligible patients.</p>
+            </div>
+
+        </div>
+
     </div>
 
-    <div class="floating-card experience">
-        👩‍⚕️ <strong>4+ Years</strong><br>
-        Experience
+</section>
+<!-- ==========================================
+     WHY CHOOSE US
+========================================== -->
+
+<section id="why-us" class="why-section">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <span class="section-tag">
+                WHY CHOOSE US
+            </span>
+
+            <h2>
+                Dedicated To Better Patient Care
+            </h2>
+
+            <p>
+                Every consultation focuses on compassionate care,
+                accurate diagnosis and long-term patient wellness.
+            </p>
+
+        </div>
+
+        <div class="why-grid">
+
+            <div class="why-card" data-aos="fade-up">
+
+                <i data-lucide="heart-handshake"></i>
+
+                <h3>Compassionate Care</h3>
+
+                <p>
+                    Every patient is treated with empathy, respect
+                    and complete attention.
+                </p>
+
+            </div>
+
+            <div class="why-card"
+                 data-aos="fade-up"
+                 data-aos-delay="100">
+
+                <i data-lucide="badge-check"></i>
+
+                <h3>Evidence Based Treatment</h3>
+
+                <p>
+                    Clinical decisions are based on the latest
+                    medical guidelines and research.
+                </p>
+
+            </div>
+
+            <div class="why-card"
+                 data-aos="fade-up"
+                 data-aos-delay="200">
+
+                <i data-lucide="stethoscope"></i>
+
+                <h3>Personalised Consultation</h3>
+
+                <p>
+                    Individual care plans designed according
+                    to every patient's condition.
+                </p>
+
+            </div>
+
+            <div class="why-card"
+                 data-aos="fade-up"
+                 data-aos-delay="300">
+
+                <i data-lucide="house"></i>
+
+                <h3>Home Visits</h3>
+
+                <p>
+                    Home consultation available for elderly
+                    and eligible patients.
+                </p>
+
+            </div>
+
+        </div>
+
     </div>
 
-    <div class="floating-card patients">
-        😊 <strong>1000+</strong><br>
-        Happy Patients
-    </div>
+</section>
+<!-- =========================
+     END OF PART 1
+     PART 2 STARTS BELOW
+========================== -->
+<!-- ==========================================
+     CONTACT
+========================================== -->
+
+<section id="contact" class="contact-section">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <span class="section-tag">
+
+                CONTACT
+
+            </span>
+
+            <h2>
+
+                Visit Our Clinic
+
+            </h2>
+
+            <p>
+
+                Feel free to contact us for appointments,
+                enquiries or home consultations.
+
+            </p>
+
+        </div>
+
+        <div class="contact-grid">
+
+            <!-- Address -->
+
+            <div class="contact-card">
+
+                <i data-lucide="map-pin"></i>
+
+                <h3>Clinic Address</h3>
+
+                <p>
+
+                    Om Gayatri Clinic
+
+                    Shop no-04, NL Cross Rd, below Vanita Apartment, opp. Anmol dairy, Malad, Chincholi Bunder, Malad West, Mumbai, Maharashtra 400064
+                </p>
+
+            </div>
+
+            <!-- Phone -->
+
+            <div class="contact-card">
+
+                <i data-lucide="phone-call"></i>
+
+                <h3>Phone</h3>
+
+                <p>
+
+                    +91 8779943078
+
+                </p>
+
+            </div>
+
+            <!-- Email -->
+
+            <div class="contact-card">
+
+                <i data-lucide="mail"></i>
+
+                <h3>Email</h3>
+
+                <p>
+
+                    to be updated   
+
+                </p>
+
+            </div>
+
+        </div>
+
+        <!-- Google Map -->
+
+        <div class="map-box">
+
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3768.3803716568696!2d72.83962627520798!3d19.178581882047233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b732c1cde0b5%3A0x23018861b106fba7!2sOm%20Gayatri%20Clinic!5e0!3m2!1sen!2sin!4v1785679934555!5m2!1sen!2sin"
+        width="100%"
+        height="450"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="strict-origin-when-cross-origin">
+    </iframe>
 
 </div>
 
     </div>
 
 </section>
+</main>
+
 <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
 
+
+<script src="JS/script.js"></script>
+
 <script>
+
 AOS.init({
     duration:1000,
-    once:true
+    once:true,
+    offset:100
 });
-</script>    
+
+lucide.createIcons();
+
+</script>
+
 </body>
 </html>
